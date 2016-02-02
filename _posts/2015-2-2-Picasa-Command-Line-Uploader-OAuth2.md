@@ -30,7 +30,7 @@ def handle_http_status(h,c):
 
 # parsing command line
 if len(sys.argv) < 3:
-	print "Usage: upload.py \"Album Name\" /path/to/folder/with/images"
+	print "Usage: upload.py \"Album Name\" /path/to/directory/with/images"
 	exit(99)
 
 album_title = sys.argv[1]
