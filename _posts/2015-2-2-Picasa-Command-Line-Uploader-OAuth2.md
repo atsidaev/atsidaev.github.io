@@ -14,7 +14,6 @@ with *.jpg files.
 Not a cool thing is that the manual steps are needed now. OAuth2 requires you to login into your account using browser.
 
 ```python
-
 import sys, os, json
 from xml.etree import ElementTree
 
