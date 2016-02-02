@@ -4,12 +4,12 @@ title: Picasa command line uploader (with OAuth2 support)
 ---
 
 I am a Picasa user. I'm not very happy with this (do not like neither application nor site),
-but storing photos in Picasa is obvious solution for any Google account holder. For a long time I used some command line uploader, 
+but storing photos in Picasa is obvious solution for any Google account holder. For a long time I used some command line uploader found somewhere on the net, 
 but since 2015 Google dropped support of ClientLogin/OAuth1 in their services, so all of the command line tools
 (including even *GoogleCL* created by Google themself) stopped working.
 
 So I created my own solution. Here is complete source code with comments. The program takes album name and path to a directory
-with *.jpg files.
+with *.jpg files as command line arguments.
 
 Not a cool thing is that the manual steps are needed now. OAuth2 requires you to login into your account using browser.
 
