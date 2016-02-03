@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Picasa command line uploader (with OAuth2 support)
+title: Picasa command line uploader with OAuth2 support
 ---
 
 I am a Picasa user and I'm not very happy with this. Application is terrible (and works under Wine badly) and site is not very convinient too. But I use them since storing photos in Picasa is obvious solution for any Google account holder. For a long time I used some command line uploader I found somewhere on the net, 
