@@ -8,8 +8,7 @@ but storing photos in Picasa is obvious solution for any Google account holder. 
 but since 2015 Google dropped support of ClientLogin/OAuth1 in their services, so all of the command line tools
 (including even *GoogleCL* created by Google themself) stopped working.
 
-So I created my own solution. Here is complete source code with comments. The program takes album name and path to a directory
-with *.jpg files as command line arguments.
+So I created my own solution. Here is complete source code (Python 2.7) with comments. The program takes album name and path to a directory with *.jpg files as command line arguments.
 
 Not a cool thing is that the manual steps are needed now. OAuth2 requires you to login into your account using browser.
 
