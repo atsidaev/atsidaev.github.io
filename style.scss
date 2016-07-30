@@ -249,6 +249,11 @@ nav {
     font-style: italic;
   }
 
+  h1 {
+    margin-bottom: 0;
+    line-height: 1;
+  }
+
   .comments {
     margin-top: 10px;
   }
@@ -257,6 +262,12 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+.post-date {
+  font-size: 14px;
+  color: #808080;
+  margin-bottom: 15px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
