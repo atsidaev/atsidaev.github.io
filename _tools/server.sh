@@ -1,3 +1,3 @@
 #!/bin/bash
-cd _site
+cd ../_site
 python -m SimpleHTTPServer 8080
