@@ -1,15 +1,24 @@
 ---
 layout: post
 title: Picasa command line uploader with OAuth2 support
+tags: [ google, python, oauth, picasa ] 
 ---
 
-I am a Picasa user and I'm not very happy with this. Application is terrible (and works under Wine badly) and site is not very convinient too. But I use them since storing photos in Picasa is obvious solution for any Google account holder. For a long time I used some command line uploader I found somewhere on the net, 
-but since 2015 Google dropped support of ClientLogin/OAuth1 in their services, so all of the command line tools
-(including even *GoogleCL* created by Google themself) stopped working.
+I am a Picasa user and I'm not very happy with this. 
+Application is terrible (and works under Wine badly) and site is not very convinient too. 
+But I use them since storing photos in Picasa is obvious solution for any Google account holder. 
+For a long time I used some command line uploader I found somewhere on the net, 
+but since 2015 Google dropped support of ClientLogin/OAuth1 in their services, 
+so all of the command line tools
+(including even *GoogleCL* created by Google themself) stopped from working.
 
-So I created my own solution. Here is complete source code (Python 2.7) with comments. The program takes album name and path to a directory with *.jpg files as command line arguments.
+This is why I created my own solution. Here is complete source code (Python 2.7) with comments.
+The program takes album name and path to a directory with *.jpg files as command line arguments.
+Then it created album and upload all of the jpg files there.
 
-Not a cool thing is that the manual steps are needed now. OAuth2 requires you to login into your account using browser.
+Bad thing is that the OAuth2 needs manual steps for user authentication.
+You need to target your browser to the Google url provided by the script, 
+perform login there and allow access to your Google Photos account.
 
 ```python
 import sys, os, json

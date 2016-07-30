@@ -264,10 +264,14 @@ nav {
   }
 }
 
-.post-date {
+.post-info {
   font-size: 14px;
   color: #808080;
   margin-bottom: 15px;
+}
+
+.tags {
+  padding-left: 20px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
